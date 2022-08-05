@@ -8,13 +8,14 @@ import Possibility from './container/possibility/Possibility'
 import Cta from './components/cta/Cta'
 import Blog from './container/blog/Blog'
 import Footer from './container/footer/Footer'
+import './App.css'
 
 
 
 const App = () => {
   return (
     <div className='App'>
-     <div className="gradient_bg">
+     <div className="gradient__bg">
       <NavBar/>
       <Header/>
      </div>
